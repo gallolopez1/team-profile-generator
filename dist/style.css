@@ -1,0 +1,27 @@
+header {
+    background-color: rgb(240, 92, 92);
+    padding: 3rem;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+main {
+    margin: 1rem;
+}
+
+.card {
+    box-shadow: 0 1.6px 3.6px 0 rgb(0 0 0 / 50%);
+}
+
+.card-body {
+    background-color: rgb(13, 107, 245);
+    color: white;
+}

@@ -173,7 +173,6 @@ promptManager()
         let team = [];
         const manager = new Manager(answers.managerName, answers.managerID, answers.managerEmail, answers.officeNumber);
         team.push(manager);
-        console.log(manager);
         answers.employees.forEach(employee => {
             if (employee.confirmAddEmployee) {
                 switch (employee.role) {
@@ -191,3 +190,19 @@ promptManager()
         console.log(team);
         return team;
     })
+    .then(team => {
+        return generatePage(team);
+    })
+    .then(pageHTML => {
+        return writeFile(pageHTML);
+    })
+    .then(writeFileResponse => {
+        console.log(writeFileResponse);
+        return copyFile();
+    })
+    .then(copyFileResponse => {
+        console.log(copyFileResponse);
+    })
+    .catch(err => {
+        console.log(err);
+    });
