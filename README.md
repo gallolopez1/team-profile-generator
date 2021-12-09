@@ -12,9 +12,9 @@ This app will automatically generate a team profile HTML file for you!
 ## <u>Team Profile Generator Preview:</u>
 
 ### App Usage
-[Recording Link](https://watch.screencastify.com/v/aEihjBPYcIqvs6MemAJJ)
+[Recording Link](https://watch.screencastify.com/v/iB1I0XRVonbM4B8YUkXw)
 
-![App Usage Recording](./assets/images/app-usage-recording.gif)
+![App Usage Recording](./assets/team-profile-generator.gif)
 
 # Activity Instructions:
 
