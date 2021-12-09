@@ -6,12 +6,15 @@ This app will automatically generate a team profile HTML file for you!
 
 ## Links
 
-* 🌎 [Live Github Page](https://gallolopez1.github.io/.../)
-* 💾 [Repo](https://github.com/gallolopez1/readme-generator)
+<!-- * 🌎 [Live Github Page](https://gallolopez1.github.io/.../) -->
+* 💾 [Repo](https://github.com/gallolopez1/team-profile-generator)
 
-## <u>README Generator Preview:</u>
+## <u>Team Profile Generator Preview:</u>
 
-xxx
+### App Usage
+[Recording Link](https://watch.screencastify.com/v/aEihjBPYcIqvs6MemAJJ)
+
+![App Usage Recording](./assets/images/app-usage-recording.gif)
 
 # Activity Instructions:
 
